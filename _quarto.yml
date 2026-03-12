@@ -1,0 +1,19 @@
+project:
+  type: website
+
+website:
+  title: "马文静的个人网站"
+  navbar:
+    left:
+      - text: "首页"
+        file: index.qmd
+      - text: "关于"
+        file: about.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+
+
+
